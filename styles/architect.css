@@ -115,6 +115,20 @@ main {
     font-weight: 700;
 }
 
+/* Facts Section */
+.Some-Facts {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.Facts-content {
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 
 
 
@@ -125,10 +139,12 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container{
+    nav,
+    .teams-container {
         flex-direction: column;
     }
-    .teams-img-container{
+
+    .teams-img-container {
         grid-template-columns: 1fr;
     }
 }
@@ -139,7 +155,8 @@ main {
         padding: 50px;
     }
 
-    nav, .teams-img-container {
+    nav,
+    .teams-img-container {
         flex-direction: column;
     }
 
