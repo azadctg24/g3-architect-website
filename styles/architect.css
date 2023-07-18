@@ -123,12 +123,39 @@ main {
 }
 
 .Facts-content {
-    color:#727272;
+    color: #727272;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
+/* Fact section */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 50px;
+
+}
+
+.facts-card-container .card-states {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facts-card-container .card-title {
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 
